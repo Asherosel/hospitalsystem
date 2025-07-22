@@ -1,0 +1,32 @@
+{
+  "/admin/appList": "/appList",
+  "/admin/hospitalInfo/:id": "/hospitalInfo/:id",
+  "/admin/hospitalInfo/data/:id": "/hospitalInfo/:id",
+  "/admin/hospitalInfo/location/:id": "/hospitalInfo/:id",
+  "/admin/hospitalInfo/images/:id": "/hospitalInfo/:id",
+
+  "PATCH /admin/hospitalInfo/data/:id": {
+    "success": true,
+    "message": "Kaydınız başarıyla güncellendi."
+  },
+  "PATCH /admin/hospitalInfo/:id": {
+    "success": true,
+    "message": "Kaydınız başarıyla güncellendi."
+  },
+  "PATCH /admin/hospitalInfo/location/:id": {
+    "success": true,
+    "message": "Konum başarıyla güncellendi."
+  },
+  "PATCH /admin/hospitalInfo/images/:id": {
+    "success": true,
+    "message": "Resimler başarıyla güncellendi."
+  },
+  "PUT /admin/hospitalInfo/images/:id": {
+    "success": true,
+    "message": "Resim başarıyla yüklendi."
+  },
+  "DELETE /admin/hospitalInfo/images/:id": {
+    "success": true,
+    "message": "Resim başarıyla silindi."
+  }
+}
