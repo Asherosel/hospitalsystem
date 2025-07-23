@@ -11,11 +11,15 @@ export const hospitalApi = createApi({
       query: (id) => `hospitalInfo/${id}`,
     }),
     getHospitalData: builder.query({
-
       query: () => 'hospitalInfo',
     }),
-
+    getHospitalList: builder.query({
+      query: () => 'hospitalList',
+    }),
+    getAppSlider: builder.query({
+      query: () => 'appSlider',
+    }),
   }),
 });
 
-export const { useGetHospitalsQuery, useGetHospitalImageQuery, useGetHospitalDataQuery } = hospitalApi;
+export const { useGetHospitalsQuery, useGetHospitalImageQuery, useGetHospitalDataQuery, useGetHospitalListQuery, useGetAppSliderQuery } = hospitalApi;

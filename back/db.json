@@ -92,7 +92,7 @@
       "hospitalListId": 26,
       "appId": 100,
       "hospital_id": "100",
-      "hospital_name": "Özel Hastanesi",
+      "hospital_name": "Özel Test Hastanesi",
       "lat": "36",
       "lot": "36",
       "phone": "5469712166",
@@ -107,6 +107,43 @@
       "hospitallist": {
         "image_url": "http://localhost:3000/uploads/indir2.png"
       }
+    }
+  ],
+  "hospitalList": [
+    {
+      "id": 26,
+      "app_id": 100,
+      "hospital_name": "Özel Test Hastanesii",
+      "image_url": "/uploads/hospital_main_test.jpg"
+    },
+    {
+      "id": 27,
+      "app_id": 8,
+      "hospital_name": "Buhara Hastanesi",
+      "image_url": "/uploads/hospital_main_buhara.jpg"
+    }
+  ],
+  "appSlider": [
+    {
+      "id": 55,
+      "appId": 8,
+      "imageUrl": "/uploads/slider_buhara_1.jpg",
+      "detailUrl": "https://buharahastanesi.com.tr/",
+      "orderNo": 0
+    },
+    {
+      "id": 70,
+      "appId": 8,
+      "imageUrl": "/uploads/slider_buhara_2.jpg",
+      "detailUrl": "https://buharahastanesi.com.tr/",
+      "orderNo": 1
+    },
+    {
+      "id": 102,
+      "appId": 8,
+      "imageUrl": "/uploads/slider_buhara_3.jpg",
+      "detailUrl": "www.google.com",
+      "orderNo": 6
     }
   ]
 }
