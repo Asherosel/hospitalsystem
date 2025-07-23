@@ -8,17 +8,14 @@ export const hospitalApi = createApi({
       query: () => 'appList',
     }),
     getHospitalImage: builder.query({
-
-      query: () => `hospitalInfo/26`,
+      query: (id) => `hospitalInfo/${id}`,
     }),
     getHospitalData: builder.query({
 
       query: () => 'hospitalInfo',
     }),
-    getHospitalInfo: builder.query({
-      query: () => 'hospitalInfo',
-    }),
+
   }),
 });
 
-export const { useGetHospitalsQuery, useGetHospitalImageQuery, useGetHospitalDataQuery, useGetHospitalInfoQuery } = hospitalApi;
+export const { useGetHospitalsQuery, useGetHospitalImageQuery, useGetHospitalDataQuery } = hospitalApi;

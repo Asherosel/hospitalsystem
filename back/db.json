@@ -100,10 +100,12 @@
       "info": "Pratik Bilişimin Test Hastanesi",
       "images": [
         "/uploads/indir.png",
+        "/uploads/indir.png",
+        "/uploads/indir.png",
         "/uploads/indir.png"
       ],
       "hospitallist": {
-        "image_url": "http://localhost:3000/uploads/hospital_main.png"
+        "image_url": "http://localhost:3000/uploads/indir2.png"
       }
     }
   ]
