@@ -1,0 +1,149 @@
+{
+  "appList": [
+    {
+      "appId": 1,
+      "appName": "TÜRKİYE HASTANESİ",
+      "id": "a6c7"
+    },
+    {
+      "appId": 2,
+      "appName": "ÇEVRE HASTANESİ",
+      "id": "61fb"
+    },
+    {
+      "appId": 3,
+      "appName": "NEV SAĞLIK GRUBU",
+      "id": "9bec"
+    },
+    {
+      "appId": 4,
+      "appName": "ÖZEL ÇORLU VATAN HASTANESİ",
+      "id": "f391"
+    },
+    {
+      "appId": 7,
+      "appName": "MEDİCİNE",
+      "id": "05bd"
+    },
+    {
+      "appId": 8,
+      "appName": "BUHARA HASTANESİ",
+      "id": "bc8b"
+    },
+    {
+      "appId": 9,
+      "appName": "BAHAT HASTANESİ",
+      "id": "dd1b"
+    },
+    {
+      "appId": 10,
+      "appName": "Lokman Hekim",
+      "id": "1921"
+    },
+    {
+      "appId": 11,
+      "appName": "Merkez Sağlık Grubu",
+      "id": "84ec"
+    },
+    {
+      "appId": 100,
+      "appName": "Test",
+      "id": "0f13"
+    },
+    {
+      "appId": 12,
+      "appName": "İstanbul Hospital",
+      "id": "5636"
+    },
+    {
+      "appId": 13,
+      "appName": "Büyük Anadolu Hastaneleri",
+      "id": "e6c7"
+    },
+    {
+      "appId": 14,
+      "appName": "Moodist",
+      "id": "432b"
+    },
+    {
+      "appId": 15,
+      "appName": "ROYAL HASTANESİ",
+      "id": "abe6"
+    },
+    {
+      "appId": 16,
+      "appName": "Optimed Hastanesi",
+      "id": "1692"
+    },
+    {
+      "appId": 17,
+      "appName": "Datalab Tıbbi Tahlil Laboratuvarı",
+      "id": "7e72"
+    },
+    {
+      "appId": 18,
+      "appName": "Aile Hastanesi",
+      "id": "fbf3"
+    }
+  ],
+  "hospitalInfo": [
+    {
+      "id": 26,
+      "hospitalListId": 26,
+      "appId": 100,
+      "hospital_id": "100",
+      "hospital_name": "Özel Test Hastanesi",
+      "lat": "36",
+      "lot": "36",
+      "phone": "5469712166",
+      "website": "www.test.com",
+      "info": "Pratik Bilişimin Test Hastanesi",
+      "images": [
+        "/uploads/indir.png",
+        "/uploads/indir.png",
+        "/uploads/indir.png",
+        "/uploads/indir.png"
+      ],
+      "hospitallist": {
+        "image_url": "http://localhost:3000/uploads/indir2.png"
+      }
+    }
+  ],
+  "hospitalList": [
+    {
+      "id": 26,
+      "app_id": 100,
+      "hospital_name": "Özel Test Hastanesii",
+      "image_url": "/uploads/hospital_main_test.jpg"
+    },
+    {
+      "id": 27,
+      "app_id": 8,
+      "hospital_name": "Buhara Hastanesi",
+      "image_url": "/uploads/hospital_main_buhara.jpg"
+    }
+  ],
+  "appSlider": [
+    {
+      "id": 55,
+      "appId": 8,
+      "imageUrl": "/uploads/slider_buhara_1.jpg",
+      "detailUrl": "https://buharahastanesi.com.tr/",
+      "orderNo": 0
+    },
+    {
+      "id": 70,
+      "appId": 8,
+      "imageUrl": "/uploads/slider_buhara_2.jpg",
+      "detailUrl": "https://buharahastanesi.com.tr/",
+      "orderNo": 1
+    },
+    {
+      "id": 102,
+      "appId": 8,
+      "imageUrl": "/uploads/slider_buhara_3.jpg",
+      "detailUrl": "www.google.com",
+      "orderNo": 6
+    }
+  ]
+}
